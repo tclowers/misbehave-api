@@ -16,4 +16,4 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-MisbehaveApi::Application.config.secret_token = 'd2b4c013c48c089fe2672bb31e65368b168b39a7a34fb1e8cf0b7e6ccb82db8414e1ea57f6100233f4ff2bb74ec3ad3c886817ae6da58dd10969505407ff2bfc'
+MisbehaveApi::Application.config.secret_token = 'f1b7dbd62773298ee9d945c01b13fa2d00cacadf51ee456b67b87f57a0046e10e4b51b56c0fb142e8ff68f785091fb3ad18c507f3875f58e275a1e3619b58680'

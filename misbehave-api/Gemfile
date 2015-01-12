@@ -5,16 +5,20 @@ gem 'rails', '4.1.6'
 
 gem 'rails-api'
 
+gem 'omniauth'
+gem 'devise_token_auth'
+gem 'bcrypt'
+
 gem 'spring', :group => :development
 
 
-gem 'pg'
+gem 'sqlite3'
 
-group :test do
+group 'test' do
     gem 'rspec'
     gem 'shoulda'
+    gem 'factory_girl'
 end
-
 
 
 # To use ActiveModel has_secure_password
